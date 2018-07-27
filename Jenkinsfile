@@ -10,6 +10,15 @@ node {
 
   //stage 'Stage Build'
   
+  stage('build') {
+            
+                echo 'Building..'
+                
+                sh "./h5p_etherpad.sh" 
+            
+        }  
+  
+  
   
     stage('HelloWorld') {
     echo 'Hello World'
