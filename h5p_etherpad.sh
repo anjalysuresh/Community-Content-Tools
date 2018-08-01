@@ -1,4 +1,5 @@
 #!/bin/bash
+cd Content_Tools
 sudo docker-compose up -d db
 cd H5P
 sudo docker build -t h5p_image .
