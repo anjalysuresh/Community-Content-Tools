@@ -6,6 +6,6 @@ sudo docker build -t h5p_image .
 git clone https://github.com/ether/etherpad-lite 
 cd etherpad-lite/
 sudo cp -r * ../Content_Tools/etherpad-lite/ 
-
+ls -l
 cd Content_Tools/etherpad-lite/
 sudo docker build -t etherpadlite .
