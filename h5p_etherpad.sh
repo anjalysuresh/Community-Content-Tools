@@ -8,6 +8,8 @@ ls -l
 #cd Content_Tools
 git clone https://github.com/ether/etherpad-lite 
 cd etherpad-lite
-sudo cp -r * ../Content_Tools/etherpad-lite/ 
+pwd
+sudo cp -r * /Content_Tools/etherpad-lite/ 
+pwd
 cd Content_Tools/etherpad-lite/
 sudo docker build -t etherpadlite .
