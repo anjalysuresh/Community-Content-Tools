@@ -4,6 +4,7 @@ sudo docker-compose up -d db
 cd H5P
 sudo docker build -t h5p_image .
 cd 
+cd 
 pwd
 #cd Content_Tools
 git clone https://github.com/ether/etherpad-lite 
