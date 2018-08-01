@@ -10,7 +10,8 @@ pwd
 git clone https://github.com/ether/etherpad-lite 
 cd etherpad-lite
 pwd
-sudo cp -r * ./Content_Tools/etherpad-lite/ 
+sudo cp -r * ../Content_Tools/etherpad-lite/ 
+cd ..
 pwd
-#cd Content_Tools/etherpad-lite/
+cd Content_Tools/etherpad-lite/
 sudo docker build -t etherpadlite .
