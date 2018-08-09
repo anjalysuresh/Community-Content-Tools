@@ -1,6 +1,8 @@
 #!/bin/bash
 cd Content_Tools
 sudo docker-compose up -d db 
+sed 'COLLAB_ROOT=http://10.129.27.30:7000/'  .env.docker
+sed 'H5P_ROOT=http://10.129.27.30:8000/' .env.docker
 cd H5P
 sudo docker build -t h5p_image .
 cd ..
