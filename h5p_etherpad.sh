@@ -19,4 +19,4 @@ pwd
 cd Content_Tools/etherpad-lite/
 sudo docker build -t etherpadlite .
 
-sudo docker exec -i pipeline_multirepo_node_1 cat APIKEY.txt 
+ 
